@@ -26,3 +26,9 @@ The purpose of this lab is to implement an efficient histogramming equalization 
 
 ### MP7 Sparse Matrix Multiplication 
 The purpose of this lab is to implement a SpMV (Sparse Matrix Vector Multiplication) kernel for an input sparse matrix based on the Jagged Diagonal Storage (JDS) transposed format.
+
+## Project Description 
+In this project, we get practical experience by using, proﬁling, and modifying MXNet, a standard open-source neural-network framework. Also, we demonstrated command of CUDA and optimization approaches by designing and implementing an optimized neural-network convolution layer forward pass.
+
+For this milestone, we implement four different optimization methods and we analyzed the performance of them. First, we use the unroll and shared-memory matrix multiply method to optimize the kernel. Then, we tried to conduct kernel fusion for unrolling and multiply to speed up more. Third, we sweep the CUDA parameters to ﬁnd the best values. Finally, we realize different implementation in kernels with different layer sizes.
+
